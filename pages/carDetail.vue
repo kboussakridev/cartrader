@@ -1,0 +1,56 @@
+<template>
+    <div>
+        <Header />
+        <div>
+            <div class="mx-auto mt-4 max-w-7xl space-y-4 px-4 xs:px-8 sm:px-10 lg:px-16 pb-16 w-3/5">
+                <div class="mt-10">
+                    <img class="w-full"
+                        src="https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="car range rover">
+                    <h1 class="mt-10 text-4xl">Range rover</h1>
+                    <div class="text-slate-500 flex text-lg mt-3 border-b pb-5 justify-between">
+                        <div class="flex">
+                            <p class="mr-2">5 seats</p>
+                            <p class="mr-2">|</p>
+                            <p class="mr-2">67,99 miles</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-2xl">35 658 €</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mr-10 mt-5 border-b pb-5">
+                    <div class="flex text-lg mt-2">
+                        <p class="rounded text-lime-800 mr-3">✓</p>
+                        <p>Leather Interior</p>
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <p class="mb-10">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quia alias expedita omnis
+                        voluptas repellendus ipsa incidunt id, est obcaecati consectetur sequi necessitatibus,
+                        recusandae aperiam numquam. Consequuntur vel porro quis!
+                    </p>
+                </div>
+                <div class="mt-10">
+                    <div class="flex w-[600px] justify-between">
+                        <input class="border p-1" type="text" placeholder="Name">
+                        <input class="border p-1" type="text" placeholder="Email">
+                        <input class="border p-1" type="text" placeholder="Phone">
+                    </div>
+                    <div class="flex mt-4 w-[600px]">
+                        <textarea class="border p-1 w-full" placeholder="Message"></textarea>
+                    </div>
+                    <button class="bg-blue-400 text-white px-10 py-3 rounded mt-4">Submit</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script setup>
+
+</script>
+
+<style lang="scss" scoped></style>
