@@ -13,6 +13,23 @@ export default defineNuxtConfig({
     },
   },
   modules: ["@nuxtjs/tailwindcss",
-            "@nuxt/image"
-  ]
+            "@nuxt/image",
+            "@vueuse/nuxt",
+            "@nuxtjs/supabase"
+  ],
+
+  supabase: {
+    url: process.env.SUPABASE_URL,
+    key: process.env.SUPABASE_KEY,
+    redirect: false,
+    redirectOptions: {
+      login: '/login',
+      callback: '/confirm',
+      include: undefined,
+      exclude: [],
+      cookieRedirect: false,
+    }
+  }
+  
+
 })
